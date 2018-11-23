@@ -1,6 +1,6 @@
 {
   "name": "google-spreadsheet-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Google spreadsheet API made easy",
   "main": "index.js",
   "keywords": [

@@ -14,11 +14,16 @@ function addRow(spreadsheetId, sheetId, row, ret) {
 	Sheets.spreadsheets.values.append({
 		auth: authorization,
 		spreadsheetId: spreadsheetId,
-		range: sheetId,
-		valueInputOption: "RAW",
+		range: sheetId + '!A1',
+		valueInputOption: 'RAW',
 		insertDataOption: 'INSERT_ROWS',
-		resource : {values: [row]}
-	}, function(error) {
+		resource : {
+			majorDimension: 'ROWS',
+			range: sheetId + '!A1',
+			values: [row]
+		}
+	}, function(error, r) {
+		// console.info(r);
 		ret(error);
 	});
 }
