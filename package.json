@@ -1,5 +1,5 @@
 {
-	"name": "g-sheets",
+	"name": "google-spreadsheet-api",
 	"version": "0.0.1",
 	"description": "Google spreadsheet API made easy",
 	"main": "index.js",
