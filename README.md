@@ -9,9 +9,10 @@
 6. Choose role: Project -> owner
 7. Choose JSON
 8. Click Create
-9. Then library on the side panel
-10. Search for Google Spreadsheet api and enable it
-11. find service account email address in downloaded json, and share your spreadsheet with it
+9. Place downloaded file in your project 
+10. Then library on the side panel
+11. Search for Google Spreadsheet api and enable it
+12. find service account email address in downloaded json, and share your spreadsheet with it
 
 
 
