@@ -1,0 +1,17 @@
+{
+	"name": "g-sheets",
+	"version": "0.0.1",
+	"description": "Google spreadsheet API made easy",
+	"main": "index.js",
+	"keywords": [
+		"google",
+		"spreadsheet",
+		"excel",
+		"table"
+	],
+	"author": "Ruslan Matveev",
+	"license": "MIT",
+	"repository": "https://github.com/angrycoding/g-sheets",
+	"dependencies": {
+	}
+}
