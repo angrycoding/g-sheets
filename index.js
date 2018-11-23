@@ -15,7 +15,7 @@ function addRow(spreadsheetId, sheetId, row, ret) {
 		auth: authorization,
 		spreadsheetId: spreadsheetId,
 		range: sheetId,
-		valueInputOption: "USER_ENTERED",
+		valueInputOption: "RAW",
 		insertDataOption: 'INSERT_ROWS',
 		resource : {values: [row]}
 	}, function(error) {
